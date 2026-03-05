@@ -1,0 +1,54 @@
+baseURL = 'https://2635764856.github.io/'
+languageCode = 'zh-cn'
+title = 'Terminal root@domain'
+theme = 'terminal'
+paginate = 5
+
+[params]
+  # 科技感主题色选择：green (矩阵绿), blue (赛博蓝), red, pink, orange
+  # 推荐使用 green 搭配深色背景，最有黑客终端的味道
+  themeColor = 'green'
+
+  # 开启终端窗口顶部的红黄绿三个小圆点（Mac OS 终端风格）
+  showConsoleWindow = true 
+  
+  # 是否全屏显示首页的自我介绍
+  fullWidthTheme = false
+
+  # 终端打字机前缀（命令行提示符）
+  TerminalPrefix = '<root@dev>:'
+  
+  # 首页自我介绍文字，支持 Markdown 语法
+  # 字体会自动根据 themeColor 染色，极具极客感
+  TerminalTitle = 'System Initialized.'
+  TerminalDescription = '''
+  > [INFO] Accessing user profile...
+  > Hello, World! I am **曾俊涛**.
+  > A passionate Software Engineer & Open Source Enthusiast.
+  > Welcome to my terminal space.
+  '''
+
+  # 是否在首页文章列表前显示打字机效果
+  showTerminalTitle = true
+  
+  # logo 文本[params.logo]
+    logoText = '~/home/blog'
+    logoHomeLink = '/'
+
+[menu]
+  # 配置极简导航栏
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 20
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/<2635764856>"
+    weight = 30
