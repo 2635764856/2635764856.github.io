@@ -5,6 +5,9 @@ theme = 'terminal'
 paginate = 5
 
 [params]
+# 这里可以写一个简单的表情，或者短的代码
+  logoText = "Console.Log('Hi')"
+  logoHomeLink = "/"
   # 科技感主题色选择：green (矩阵绿), blue (赛博蓝), red, pink, orange
   # 推荐使用 green 搭配深色背景，最有黑客终端的味道
   themeColor = 'green'
@@ -13,19 +16,27 @@ paginate = 5
   showConsoleWindow = true 
   
   # 是否全屏显示首页的自我介绍
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # 终端打字机前缀（命令行提示符）
-  TerminalPrefix = '<root@dev>:'
+  showTerminalTitle = true
   
-  # 首页自我介绍文字，支持 Markdown 语法
-  # 字体会自动根据 themeColor 染色，极具极客感
-  TerminalTitle = 'System Initialized.'
+  # 3. 命令行提示符（可以改成你的 ID）
+  TerminalPrefix = "root@JoeAnderson:~#"
+  
+  # 4. 动态打出的第一行标题
+  TerminalTitle = "Wake up, Neo..."
+
+  # 5. 动态打出的多行介绍（支持 Markdown 粗体和链接）
+  # 注意：这里用了三个单引号 ''' 来支持多行文本
   TerminalDescription = '''
-  > [INFO] Accessing user profile...
-  > Hello, World! I am **曾俊涛**.
-  > A passionate Software Engineer & Open Source Enthusiast.
-  > Welcome to my terminal space.
+  > Accessing secure server... [Success]
+  > Loading user profile...
+  
+  我是 **JoeAnderson**，一名热衷于开源技术的开发者。
+  这里是我的数字花园，记录 **代码**、**思考** 与 **技术**。
+  
+  Running: `Life.exe` with parameters `--passion --code`
   '''
 
   # 是否在首页文章列表前显示打字机效果
@@ -36,19 +47,26 @@ paginate = 5
     logoHomeLink = '/'
 
 [menu]
-  # 配置极简导航栏
   [[menu.main]]
     identifier = "posts"
-    name = "Posts"
+    name = "📂 文章列表"  # 加个 emoji 图标会生动很多
     url = "/posts"
-    weight = 10
+    weight = 1
+
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "👨‍💻 关于我"
     url = "/about"
-    weight = 20
+    weight = 2
+
   [[menu.main]]
     identifier = "github"
-    name = "GitHub"
-    url = "https://github.com/<2635764856>"
-    weight = 30
+    name = "🐙 GitHub"
+    url = "https://github.com/2635764856"
+    weight = 3
+    
+  [[menu.main]]
+    identifier = "tags"
+    name = "🏷️ 标签云"
+    url = "/tags"
+    weight = 4
