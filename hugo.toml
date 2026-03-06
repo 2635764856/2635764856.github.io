@@ -5,66 +5,43 @@ theme = 'terminal'
 paginate = 5
 
 [params]
-# 这里可以写一个简单的表情，或者短的代码
-  logoText = "Console.Log('Hi')"
-  logoHomeLink = "/"
-  # 科技感主题色选择：green (矩阵绿), blue (赛博蓝), red, pink, orange
-  # 推荐使用 green 搭配深色背景，最有黑客终端的味道
+  # 基础设置
   themeColor = 'green'
-
-  # 开启终端窗口顶部的红黄绿三个小圆点（Mac OS 终端风格）
-  showConsoleWindow = true 
-  
-  # 是否全屏显示首页的自我介绍
   fullWidthTheme = true
-
-  # 终端打字机前缀（命令行提示符）
+  showConsoleWindow = true
+  
+  # 首页打字机与简介设置
   showTerminalTitle = true
-  
-  # 3. 命令行提示符（可以改成你的 ID）
-  TerminalPrefix = "root@JoeAnderson:~#"
-  
-  # 4. 动态打出的第一行标题
-  TerminalTitle = "Wake up, Neo..."
-
-  # 5. 动态打出的多行介绍（支持 Markdown 粗体和链接）
-  # 注意：这里用了三个单引号 ''' 来支持多行文本
+  TerminalPrefix = 'root@hacker-space:~#'
+  TerminalTitle = 'System Initialized.'
   TerminalDescription = '''
-  > Accessing secure server... [Success]
-  > Loading user profile...
-  
-  我是 **JoeAnderson**，一名热衷于开源技术的开发者。
-  这里是我的数字花园，记录 **代码**、**思考** 与 **技术**。
-  
-  Running: `Life.exe` with parameters `--passion --code`
+  > [INFO] Accessing user profile...
+  > Hello, World! I am **2635764856**.
+  > A passionate Software Engineer & Open Source Enthusiast.
+  > Welcome to my terminal space.
   '''
 
-  # 是否在首页文章列表前显示打字机效果
-  showTerminalTitle = true
-  
-  # logo 文本[params.logo]
-    logoText = '~/home/blog'
-    logoHomeLink = '/'
+  # Logo 设置
+  logoText = '~/home/blog'
+  logoHomeLink = '/'
 
+# 菜单设置
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "📂 文章列表"  # 加个 emoji 图标会生动很多
+    name = "📂 文章列表"
     url = "/posts"
     weight = 1
-
   [[menu.main]]
     identifier = "about"
     name = "👨‍💻 关于我"
     url = "/about"
     weight = 2
-
   [[menu.main]]
     identifier = "github"
     name = "🐙 GitHub"
     url = "https://github.com/2635764856"
     weight = 3
-    
   [[menu.main]]
     identifier = "tags"
     name = "🏷️ 标签云"
