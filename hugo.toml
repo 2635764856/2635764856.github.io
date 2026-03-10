@@ -38,12 +38,27 @@ TerminalDescription = '''
     url = "/about"
     weight = 2
   [[menu.main]]
+    identifier = "projects"
+    name = "🚀 项目作品集"
+    url = "/projects"
+    weight = 3
+  [[menu.main]]
+    identifier = "skills"
+    name = "⚡ 技能与工具"
+    url = "/skills"
+    weight = 4
+  [[menu.main]]
+    identifier = "stats"
+    name = "📊 统计与可视化"
+    url = "/stats"
+    weight = 5
+  [[menu.main]]
     identifier = "github"
     name = "🐙 GitHub"
     url = "https://github.com/2635764856"
-    weight = 3
+    weight = 6
   [[menu.main]]
     identifier = "tags"
     name = "🏷️ 标签云"
     url = "/tags"
-    weight = 4
+    weight = 7
