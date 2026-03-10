@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal root@domain</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Terminal root@domain</description>
-    <generator>Hugo</generator>
+    <title>Joe Anderson | Terminal Space</title>
+    <link>https://2635764856.github.io/</link>
+    <description>Recent content on Joe Anderson | Terminal Space</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 05 Mar 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Mar 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://2635764856.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World: 我的极客博客上线了</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://2635764856.github.io/posts/hello-world/</link>
       <pubDate>Thu, 05 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;h3 id=&#34;1-初始化完毕&#34;&gt;1. 初始化完毕&lt;/h3&gt;&#xA;&lt;p&gt;终于搭建好了我的个人博客！采用了 &lt;strong&gt;Hugo + Terminal&lt;/strong&gt; 的极致精简架构。&lt;/p&gt;&#xA;&lt;p&gt;告别繁杂的UI，回归纯粹的文字与代码。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greet&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;user&lt;/span&gt;) {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;nbsp&lt;/span&gt;;   &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`Hello, &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;user&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;! Welcome to my cyber space.`&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;greet&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Geek&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      
+      <guid>https://2635764856.github.io/posts/hello-world/</guid>
+      <description>1. 初始化完毕 终于搭建好了我的个人博客！采用了 Hugo + Terminal 的极致精简架构。
+告别繁杂的UI，回归纯粹的文字与代码。
+function greet(user) { &amp;amp;nbsp; console.log(`Hello, ${user}! Welcome to my cyber space.`); } greet(&amp;#34;Geek&amp;#34;); </description>
     </item>
+    
   </channel>
 </rss>

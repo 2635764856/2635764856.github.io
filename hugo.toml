@@ -1,25 +1,25 @@
 baseURL = 'https://2635764856.github.io/'
 languageCode = 'zh-cn'
-title = 'Terminal root@domain'
+title = 'Joe Anderson | Terminal Space'
 theme = 'terminal'
 paginate = 5
 
 [params]
   # 基础设置
-  themeColor = 'green'
+  themeColor = 'green' # Using Matrix Green for accent
   fullWidthTheme = true
   showConsoleWindow = true
   
   # 首页打字机与简介设置
   showTerminalTitle = true
-  TerminalPrefix = 'root@hacker-space:~#'
-  TerminalTitle = 'System Initialized.'
-  TerminalDescription = '''
-  > [INFO] Accessing user profile...
-  > Hello, World! I am **2635764856**.
-  > A passionate Software Engineer & Open Source Enthusiast.
-  > Welcome to my terminal space.
-  '''
+  TerminalPrefix = 'visitor@manus-ai:~/home$'
+  TerminalTitle = 'Initializing Neural Interface...'
+TerminalDescription = '''
+      > [SYSTEM] Connection established.
+      > [INFO] Identity: **Joe Anderson** (Software Engineer)
+      > [INFO] Status: Active & Exploring Open Source.
+      > [INFO] Welcome to my digital terminal. Type `help` to explore... (Just kidding, use the menu!)
+      '''
 
   # Logo 设置
   logoText = '~/home/blog'
